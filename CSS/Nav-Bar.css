@@ -1,0 +1,27 @@
+.nav-bar{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-wrap;
+    gap: 2rem;
+    font-size: 1.5rem;
+    height: 100px;
+    
+}
+
+
+.nav-bar > li:hover {
+    animation: link-grow 500ms ease-in-out forwards;
+    overflow: wrap;
+    
+}
+
+
+
+@media (max-width: 415px) {
+    .nav-bar {
+        
+    }
+}
